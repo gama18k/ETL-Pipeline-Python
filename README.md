@@ -4,17 +4,18 @@ Este repositório contém um projeto simples de ETL (Extract, Transform, Load) i
 
 ## 📁 Estrutura do Projeto
 
-├── data_raw/                # Dados brutos (input)
-│   ├── dados_empresaA.json
-│   └── dados_empresaB.csv
-├── data_processed/          # Dados transformados (output)
-│   └── dados_combinados.csv
-├── pipeline_versao_classemetodo.py  # Pipeline usando método de classe
-├── pipeline_versao_instancia.py      # Pipeline usando instância direta
-├── dados_modelo_classemetodo.py      # Classe Dados com @classmethod
-└── dados_modelo_instancia.py          # Classe Dados com suporte a lista e leitura flexível
-
-
+| Pasta/Arquivo                  | Descrição                              |
+|-------------------------------|--------------------------------------|
+| `data_raw/`                   | Dados brutos (input)                  |
+| ├─ `dados_empresaA.json`      | Dados da empresa A (formato JSON)    |
+| └─ `dados_empresaB.csv`       | Dados da empresa B (formato CSV)     |
+| `data_processed/`             | Dados processados (output)            |
+| └─ `dados_combinados.csv`     | Dados consolidados e padronizados    |
+| `scripts/`                    | Scripts Python do projeto             |
+| ├─ `pipeline_versao_classemetodo.py` | Pipeline usando métodos de classe  |
+| ├─ `pipeline_versao_instancia.py`     | Pipeline usando instância da classe |
+| ├─ `dados_modelo_classemetodo.py`     | Implementação da classe Dados (classmethod) |
+| └─ `dados_modelo_instancia.py`         | Implementação da classe Dados (leitura flexível) |
 
 ## ⚙️ Funcionalidades
 
